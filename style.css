@@ -20,7 +20,7 @@ body{
     top:-3%;
     
     width: 100vh;
-    position: absolute;
+    position: fixed;
 }
 .topnav h1{
     padding-top: 20px;
@@ -90,7 +90,7 @@ body{
 
 .close{
     position: absolute;
-    right:20px;
+    right:15px;
     font-size: 40px;
     top:0;
     transform: rotate(45deg);
