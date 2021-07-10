@@ -20,7 +20,7 @@ body{
     top:-3%;
     
     width: 100vh;
-    position: absolute;
+    position: fixed;
 }
 .topnav h1{
     padding-top: 20px;
