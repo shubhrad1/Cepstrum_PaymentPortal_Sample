@@ -17,34 +17,43 @@ body{
 }
 .topnav
 {
-    top:-3%;
     
-    width: 100vh;
+    top:0;
+    width: 100%;
+    height:60px;  
+    left:0;
+    right: 0;;
     position: fixed;
+    z-index: 2;
+    background-color: aliceblue;
 }
 .topnav h1{
-    padding-top: 20px;
+    margin-top: 0px;
     margin-left: 50px;
     font-size: 50px;
 }
 .content_text
 {
     
-    margin-top:50px ;
+    margin-top:40px ;
     margin-left: 3.5%;
     margin-right: 3.5%;
     margin-bottom: 50px;
     text-align: justify;
     position: absolute;
     top:10%;
-    
-    
+     
 }
-.open_button
+.centerize-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.centerize-button .open_button
 {
     height:40px;
     width:100px;
-    align-self: center;
+    
     border-radius: 5px;
     border:none;
     background-color: #03bafc ;
@@ -53,7 +62,8 @@ body{
     position:relative;
     top:70%;
     margin-top: 50px;
-    left:46%;
+    
+    
     
 
 }
@@ -61,6 +71,7 @@ body{
     cursor: pointer;
     font-weight: bold;
     font-size: 21px;
+
 }
 
 .popup-form
