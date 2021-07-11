@@ -89,8 +89,8 @@ body{
     
     z-index: 4;
 
-    height:94%;
-    width:60%;
+    height:94vh;
+    width:60vw;
     border: none;
     border-radius: 10px;
     
@@ -138,7 +138,7 @@ body{
     
 }
 .popup-form .form-content .buttons{
-    top:40px;
+    top:20px;
     position:relative;
     display: block;
     
@@ -178,12 +178,12 @@ input[type=number][name=contact]::-webkit-outer-spin-button {
     appearance: none;
     margin: 0; 
 }
-::-webkit-scrollbar
+.popup-form::-webkit-scrollbar
 {
     width:12px;
     height:12px;
 }
-::-webkit-scrollbar-thumb
+.popup-form::-webkit-scrollbar-thumb
 {
     background-color: #5f00b3;
     
