@@ -179,8 +179,8 @@ input[type=number][name=contact]::-webkit-outer-spin-button {
 }
 .popup-form::-webkit-scrollbar
 {
-    width:12px;
-    height:12px;
+    width:8px;
+    height:8px;
 }
 .popup-form::-webkit-scrollbar-thumb
 {
