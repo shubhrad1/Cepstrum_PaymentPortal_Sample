@@ -167,6 +167,13 @@ body{
     color: white;
     font-size: 20px;
 }
+@media screen and (max-width: 480px)
+{
+    .popup-form
+    {
+        width:90%
+    }
+}
 
 
 
