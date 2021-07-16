@@ -177,6 +177,10 @@ body{
     {
         width:92%
     }
+    .close
+    {
+        right:7px;
+    }
 }
 
 
