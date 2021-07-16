@@ -169,6 +169,10 @@ body{
 }
 @media screen and (max-width: 480px)
 {
+    .topnav h1
+    {
+        margin-left: 45px;
+    }
     .popup-form
     {
         width:92%
