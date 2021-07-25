@@ -31,7 +31,7 @@ body{
     text-align: justify;
     position: absolute;
     top:10%;
-     
+    font-size: 1.15rem;
 }
 
 .work-area  
@@ -93,7 +93,10 @@ h1
     position: absolute;
     left: 1100px;
 }
-
+h1:hover
+{
+    color: #FF96AD;
+}
 .logo
 {
     left: 10px;
@@ -101,4 +104,30 @@ h1
     height: 40px;
     position: absolute;
 }
+.logo:hover
+{
+    opacity: 0.75;
+}
+@keyframes buttonAnim {
+    0%
+    {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
 
+
+option
+{
+    height: 50px;
+}
+
+.form-select
+{
+    margin-top: 75px;
+    border: 5px solid #022E57;
+}
