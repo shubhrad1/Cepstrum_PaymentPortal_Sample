@@ -11,6 +11,5 @@
 
 <br>
 <br>
-Notable additions:
-    <br>-New Scroll Bar
+
 </ul>
