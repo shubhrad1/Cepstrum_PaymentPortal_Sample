@@ -179,6 +179,10 @@ h1
     .work-area
     {
         height: 200px;
+        
+    }
+    body
+    {
         overflow-y: scroll;
     }
     
